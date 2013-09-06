@@ -1,0 +1,415 @@
+    1  echo $SHELL
+    2  which sqlite3
+    3  which git
+    4  which python
+    5  python --version
+    6  apt-cache search terminal
+    7  ls
+    8  pwd
+    9  apt-cache search git
+   10  apt-get install git
+   11  apt-get install git-all
+   12  sudo apt-get install git-all
+   13  apt-cache search git
+   14  apt-cache search git | grep ^git
+   15  apt-get install git
+   16  sudo apt-get install git
+   17  sudo apt-get install git-doc
+   18  apt-cache search mercurial
+   19  apt-get install mercurial
+   20  sudo apt-get install mercurial
+   21  apt-get autoremove
+   22  sudo apt-get autoremove
+   23  apt-cache search ipython
+   24  apt-cache show ipython
+   25  apt-get install ipython-notebook
+   26  sudo apt-get install ipython-notebook
+   27  sudo apt-get install python-numpy
+   28  sudo apt-get install python-scipy
+   29  sudo apt-get install python-matplotlib
+   30  sudo apt-get install python-pandas
+   31  which nosetests
+   32  apt-cache search pytest
+   33  which pip
+   34  which easy_install
+   35  sudo apt-get install python-pytest
+   36  which ipython
+   37  ipython --version
+   38  ipython notebook
+   39  apt-cache search kate
+   40  apt-cache search gedit
+   41  sudo apt-get install kate
+   42  apt-cache search geany
+   43  apt-cache search sublime
+   44  which gedit
+   45  sudo apt-get install gedit
+   46  which gedit
+   47  gedit
+   48  gedit pants.py
+   49  ls
+   50  sudo apt-get install kate
+   51  which kate
+   52  kate pants.py
+   53  gedit pants.py
+   54  rm pants.py
+   55  sudo apt-get --purge remote kate
+   56  sudo apt-get --purge remove kate
+   57  apt-ca
+   58  apt-cache search firefox
+   59  apt-cache search firefox | grep ^firefox
+   60  sudo apt-get install firefox
+   61  sudo apt-get autoremove
+   62  sudo apt-get install firefox
+   63  which firefox
+   64  apt-cache search sqlite3
+   65  sudo apt-get install sqlite3
+   66  apt-cache search pil
+   67  apt-cache search python-pil
+   68  apt-cache search python-pillow
+   69  apt-cache search python-imaging
+   70  sudo apt-get install python-imaging
+   71  apt-cache search pip
+   72  apt-cache search python pip
+   73  sudo apt-get install python-pip
+   74  which pip
+   75  ipython
+   76  sudo apt-get install svn
+   77  apt-cache search svn
+   78  apt-cache search subversion
+   79  sudo apt-get install subversion
+   80  which svn
+   81  which emacs
+   82  which vim
+   83  apt-cache search emacs
+   84  sudo apt-get install emacs
+   85  apt-cache search vim
+   86  sudo apt-get install vim
+   87  which nano
+   88  nano
+   89  which pico
+   90  which vi
+   91  which vim
+   92  which make
+   93  which dpkg
+   94  dpkg --get-selections
+   95  ls /etc/gitconfig
+   96  which git
+   97  git config --system core.editor gedit
+   98  sudo git config --system core.editor gedit
+   99  ls /etc/gitconfig
+  100  cat /etc/gitconfig
+  101  which gedit
+  102  git config --get core.editor
+  103  git config --system ui.color auto
+  104  sudo git config --system ui.color auto
+  105  git status
+  106  git clone git://github.com/jiffyclub/ipythonblocks.git
+  107  cd ipythonblocks/
+  108  git status
+  109  ls
+  110  gedit README.rst 
+  111  git status
+  112  cat /etc/gitconfig 
+  113  git config --unset ui.color
+  114  cat /etc/gitconfig 
+  115  git config --system --unset ui.color
+  116  sudo git config --system --unset ui.color
+  117  cat /etc/gitconfig 
+  118  sudo git config --system color.ui auto
+  119  cat /etc/gitconfig 
+  120  git status
+  121  man less
+  122  git diff
+  123  sudo gedit /etc/gitconfig
+  124  gedit README.rst 
+  125  cd ..
+  126  ls
+  127  rm -rf ipythonblocks
+  128  ls
+  129  sudo apt-get update
+  130  sudo apt-get upgrade
+  131  sudo apt-get install dkms
+  132  cd /media/swc/VBOXADDITIONS_4.2.12_84980
+  133  ls
+  134  sudo sh VBoxLinuxAdditions.run
+  135  which svn
+  136  svn --version
+  137  which dpkg
+  138  dpkg --get-selections
+  139  which ipython
+  140  ipython
+  141  ipython notebook
+  142  pwd
+  143  ls
+  144  cd Do
+  145  cd Downloads/
+  146  ls
+  147  cd ..
+  148  cd Documents/
+  149  ls
+  150  python workshop_checklist.py 
+  151  exit
+  152  pwd
+  153  cd
+  154  pwd
+  155  ls
+  156  ls -l
+  157  ls -lh
+  158  cd Documents/
+  159  ls
+  160  ls -l
+  161  clear
+  162  ls
+  163  python workshop_checklist.py 
+  164  exit
+  165  ls
+  166  cd Documents/
+  167  ls
+  168  ls -l
+  169  vi day1.databases 
+  170  ls
+  171  rm day1.databases 
+  172  ls
+  173  unzip 2013-09-04-uiowa-master.zip 
+  174  ls
+  175  cd 2013-09-04-uiowa-master/
+  176  ls
+  177  vi README.md 
+  178  cd day1.databases/
+  179  ls
+  180  cd ..
+  181  ls
+  182  cd day1.shell/
+  183  ls
+  184  ls -l
+  185  cd data/
+  186  ls
+  187  ls -d *
+  188  ls -D
+  189  cd alexander/
+  190  ls
+  191  cd ..
+  192  ls
+  193  cd Bert/
+  194  ls
+  195  cd ..
+  196  ls
+  197  cd day1.databases/
+  198  ls
+  199  vi Person.csv 
+  200  ls
+  201  vi experiments.sqlite 
+  202  ls -lh
+  203  ls
+  204  cat Person.csv 
+  205  pwd
+  206  git clone https://github.com/adina/2013-09-04-uiowa
+  207  ls
+  208  pwd
+  209  ls
+  210  cd 2013-09-04-uiowa/
+  211  cd day1.shell/
+  212  ls
+  213  echo Hello, world
+  214  pwd
+  215  ls
+  216  ls -lh
+  217  ls -F
+  218  ls -l
+  219  ls -lh
+  220  touch testfile
+  221  ls -lh
+  222  rm testfile 
+  223  ls -lh
+  224  ls -a
+  225  pwd
+  226  cd ..
+  227  cd ~
+  228  cd 2013-09-04-uiowa/
+  229  pwd
+  230  man ls
+  231  ls
+  232  ls day1.shell/
+  233  cd day1.shell/
+  234  ls ..
+  235  ls -l ../..
+  236  ls
+  237  clear
+  238  pwd
+  239  cd data/THOMAS/
+  240  pwd
+  241  ls
+  242  ls *1
+  243  ls *4*1
+  244  cd ..
+  245  ls
+  246  ls gerdal/ *2*
+  247  ls gerdal/ *2*9*
+  248  ls gerdal/ *29*
+  249  ls gerdal/ *29
+  250  cd gerdal/
+  251  ls
+  252  ls *2*
+  253  ls *2*9*
+  254  ls ~/2013-09-04-uiowa/day1.shell/data/gerdal/ *2*9*
+  255  ls ~/2013-09-04-uiowa/day1.shell/data/gerdal/*2*9*
+  256  cd ~/2013-09-04-uiowa/
+  257  cd day1.shell/
+  258  cd ..
+  259  cd day1.shell/
+  260  cd exercises/
+  261  pwd
+  262  ls
+  263  cd ~/2013-09-04-uiowa/
+  264  history
+  265  cd ~/2013-09-04-uiowa/
+  266  cd day1.shell/exercises/
+  267  which ls
+  268  which python
+  269  echo $PATH
+  270  cd ..
+  271  pwd
+  272  ls
+  273  hello
+  274  ./hello 
+  275  clear
+  276  ls
+  277  cat ex_data.txt 
+  278  cat ex_data.txt ex_data.txt 
+  279  clear
+  280  pwd
+  281  ls
+  282  cat dictionary.txt 
+  283  ls
+  284  ls data/THOMAS/
+  285  ls ./data/THOMAS/
+  286  cat ./data/THOMAS/*
+  287  less dictionary.txt 
+  288  more dictionary.txt 
+  289  head dictionary.txt 
+  290  tail dictionary.txt 
+  291  head -n 20 dictionary.txt 
+  292  head -n 1 dictionary.txt 
+  293  tail -n 1 dictionary.txt 
+  294  cd data/
+  295  cd Bert/
+  296  ls
+  297  cat au*
+  298  cat au* > ../all_data
+  299  ls
+  300  cd ..
+  301  ls
+  302  wc all_data 
+  303  ls
+  304  ls -l
+  305  wc all_data 
+  306  cd Bert/
+  307  ls
+  308  cat au* >> ../all_data
+  309  cd ..
+  310  ls
+  311  wc all_data 
+  312  cd Bert/
+  313  cd ..
+  314  cd gerdal/
+  315  cat *4* >> ../all_data 
+  316  ls
+  317  cat *4* >> ../chk
+  318  cd ..
+  319  ls
+  320  less chk 
+  321  less all_data 
+  322  less chk
+  323  less all_data 
+  324  ls
+  325  rm chk
+  326  wc all_data 
+  327  cp all_data all_data_backup
+  328  wc all*
+  329  mv all_data_backup /tmp/.
+  330  ls /tmp/
+  331  ls -l
+  332  ls -l /tmp/
+  333  ls
+  334  mv all_data all_data_DONOTDELETEME
+  335  ls
+  336  mkdir myfiles
+  337  ls
+  338  mv all_data_DONOTDELETEME all_data
+  339  ls
+  340  wc Bert/* gerdal/*
+  341  wc Bert/* gerdal/* | less
+  342  wc Bert/* gerdal/* | tail -n 1
+  343  clear
+  344  nano tobesorted
+  345  ls
+  346  which vi
+  347  pwd
+  348  sort tobesorted 
+  349  cat tobesorted 
+  350  wc Bert/* | less
+  351  wc Bert/* | sort -k 3 -n | less
+  352  man wc
+  353  ls -lh Bert/*
+  354  clear
+  355  wc Bert/* | sort -k 3 -n | tail -n 1
+  356  wc Bert/* | sort -k 3 -n | less
+  357  wc Bert/* | sort -k 3 -n | tail -n 2
+  358  wc Bert/* | sort -k 3 -n | tail -n 2 | head
+  359  wc Bert/* | sort -k 3 -n | tail -n 2 | head -n 1
+  360  man sort
+  361  nano smallest
+  362  ls
+  363  vi smallest 
+  364  ls
+  365  cd Bert/
+  366  cd ..
+  367  ls
+  368  ls -l smallest 
+  369  chmod a+x smallest 
+  370  ls
+  371  ls -l
+  372  cd Bert/
+  373  ls
+  374  ../smallest 
+  375  cd ..
+  376  ls
+  377  vi smallest 
+  378  cd Bert/
+  379  ../smallest 
+  380  cd ..
+  381  ls
+  382  vi smallest 
+  383  cd Bert/
+  384  ../smallest 
+  385  cd ../THOMAS/
+  386  ../smallest 
+  387  cd ..
+  388  history > history.txt
+  389  less history.txt 
+  390  ls
+  391  find . -print | less
+  392  find . -type f -print | less
+  393  find . -type f -name "*1*" | less
+  394  find . -type f -name "*1*" -or -name "*2*" | less
+  395  find . -type f -name "*1*" -and -name "*2*" | less
+  396  cat smallest 
+  397  grep "sort" smallest
+  398  grep "cat" smallest
+  399  grep cat smallest
+  400  grep sort smallest
+  401  find . -type -f -exec grep "Volume" {} \;
+  402  find . -type -f exec grep "Volume" {} \;
+  403  find . -type f -exec grep "Volume" {} \;
+  404  find . -type f -exec grep "Volume" {} \; | sort -k 2
+  405  find . -type f -exec grep -H "Volume" {} \; | sort -k 2
+  406  find . -type f -print
+  407  find . -type f -print | xargs grep Volume
+  408  history
+  409  man xargs
+  410  man mv
+  411  man xargs
+  412  man find
+  413  cd ..
+  414  ls
+  415  history > history_first_term.txt
